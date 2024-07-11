@@ -6,7 +6,7 @@ const Produtos = db.sequelize.define( //produtos
             type: db.Sequelize.STRING
         },
         preco: { //preco
-            type: db.Sequelize.FLOAT //float
+            type: db.Sequelize.STRING //float
         },
         quantidade: { //quantidade
             type: db.Sequelize.INTEGER  //integer
